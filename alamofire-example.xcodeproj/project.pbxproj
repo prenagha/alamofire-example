@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7666F3DA1C64500C00B1D56D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666F3D91C64500C00B1D56D /* main.swift */; };
+		768EBC771C64E8E8008808B6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768EBC751C64E8E8008808B6 /* Alamofire.framework */; };
+		768EBC781C64E8E8008808B6 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 768EBC751C64E8E8008808B6 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		768EBC791C64E8E8008808B6 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768EBC761C64E8E8008808B6 /* SwiftyBeaver.framework */; };
+		768EBC7A1C64E8E8008808B6 /* SwiftyBeaver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 768EBC761C64E8E8008808B6 /* SwiftyBeaver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		768EBC7D1C64E923008808B6 /* CountdownLatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768EBC7C1C64E923008808B6 /* CountdownLatch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		768EBC7B1C64E8E8008808B6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				768EBC781C64E8E8008808B6 /* Alamofire.framework in Embed Frameworks */,
+				768EBC7A1C64E8E8008808B6 /* SwiftyBeaver.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7666F3D61C64500C00B1D56D /* alamofire-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alamofire-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7666F3D91C64500C00B1D56D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7666F3DB1C64500C00B1D56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768EBC751C64E8E8008808B6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		768EBC761C64E8E8008808B6 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/Mac/SwiftyBeaver.framework; sourceTree = "<group>"; };
+		768EBC7C1C64E923008808B6 /* CountdownLatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownLatch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7666F3D41C64500C00B1D56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768EBC771C64E8E8008808B6 /* Alamofire.framework in Frameworks */,
+				768EBC791C64E8E8008808B6 /* SwiftyBeaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7666F3CE1C64500C00B1D56D = {
+			isa = PBXGroup;
+			children = (
+				768EBC751C64E8E8008808B6 /* Alamofire.framework */,
+				768EBC761C64E8E8008808B6 /* SwiftyBeaver.framework */,
+				7666F3D81C64500C00B1D56D /* alamofire-example */,
+				7666F3D71C64500C00B1D56D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7666F3D71C64500C00B1D56D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7666F3D61C64500C00B1D56D /* alamofire-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7666F3D81C64500C00B1D56D /* alamofire-example */ = {
+			isa = PBXGroup;
+			children = (
+				7666F3D91C64500C00B1D56D /* main.swift */,
+				768EBC7C1C64E923008808B6 /* CountdownLatch.swift */,
+				7666F3DB1C64500C00B1D56D /* Info.plist */,
+			);
+			path = "alamofire-example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7666F3D51C64500C00B1D56D /* alamofire-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7666F3DE1C64500C00B1D56D /* Build configuration list for PBXNativeTarget "alamofire-example" */;
+			buildPhases = (
+				7666F3D31C64500C00B1D56D /* Sources */,
+				7666F3D41C64500C00B1D56D /* Frameworks */,
+				768EBC7B1C64E8E8008808B6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alamofire-example";
+			productName = "alamofire-example";
+			productReference = 7666F3D61C64500C00B1D56D /* alamofire-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7666F3CF1C64500C00B1D56D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Renaghan;
+				TargetAttributes = {
+					7666F3D51C64500C00B1D56D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7666F3D21C64500C00B1D56D /* Build configuration list for PBXProject "alamofire-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7666F3CE1C64500C00B1D56D;
+			productRefGroup = 7666F3D71C64500C00B1D56D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7666F3D51C64500C00B1D56D /* alamofire-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7666F3D31C64500C00B1D56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768EBC7D1C64E923008808B6 /* CountdownLatch.swift in Sources */,
+				7666F3DA1C64500C00B1D56D /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7666F3DC1C64500C00B1D56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7666F3DD1C64500C00B1D56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7666F3DF1C64500C00B1D56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "alamofire-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renaghan.alamofire-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7666F3E01C64500C00B1D56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "alamofire-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renaghan.alamofire-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7666F3D21C64500C00B1D56D /* Build configuration list for PBXProject "alamofire-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7666F3DC1C64500C00B1D56D /* Debug */,
+				7666F3DD1C64500C00B1D56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7666F3DE1C64500C00B1D56D /* Build configuration list for PBXNativeTarget "alamofire-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7666F3DF1C64500C00B1D56D /* Debug */,
+				7666F3E01C64500C00B1D56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7666F3CF1C64500C00B1D56D /* Project object */;
+}

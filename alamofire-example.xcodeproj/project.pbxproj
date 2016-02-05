@@ -31,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		763D953F1C64F8EC0087CCFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7666F3D61C64500C00B1D56D /* alamofire-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alamofire-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7666F3D91C64500C00B1D56D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7666F3DB1C64500C00B1D56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,9 +56,10 @@
 		7666F3CE1C64500C00B1D56D = {
 			isa = PBXGroup;
 			children = (
+				763D953F1C64F8EC0087CCFF /* README.md */,
 				768EBC751C64E8E8008808B6 /* Alamofire.framework */,
 				768EBC761C64E8E8008808B6 /* SwiftyBeaver.framework */,
-				7666F3D81C64500C00B1D56D /* alamofire-example */,
+				7666F3D81C64500C00B1D56D /* Source */,
 				7666F3D71C64500C00B1D56D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,13 +72,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7666F3D81C64500C00B1D56D /* alamofire-example */ = {
+		7666F3D81C64500C00B1D56D /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				7666F3D91C64500C00B1D56D /* main.swift */,
 				768EBC7C1C64E923008808B6 /* CountdownLatch.swift */,
 				7666F3DB1C64500C00B1D56D /* Info.plist */,
 			);
+			name = Source;
 			path = "alamofire-example";
 			sourceTree = "<group>";
 		};

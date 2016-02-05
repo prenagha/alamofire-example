@@ -1,9 +1,14 @@
+
+/// Http networking in swift, https://github.com/Alamofire/Alamofire
 import Alamofire
+
+/// Lightweight logging in swift, https://github.com/SwiftyBeaver/SwiftyBeaver
 import SwiftyBeaver
 
 // setup logging
 let log = SwiftyBeaver.self
 let console = ConsoleDestination()
+console.dateFormat = "HH:mm:ss.SSS"
 console.colored = false
 log.addDestination(console)
 

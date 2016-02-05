@@ -2,7 +2,7 @@
 Command line XCode project example using
 * swift
 * [Carthage](https://github.com/Carthage/Carthage)
-* [alamofire](https://github.com/Alamofire/Alamofire)
+* [Alamofire](https://github.com/Alamofire/Alamofire)
 * [swifty beaver](https://github.com/SwiftyBeaver/SwiftyBeaver)
 * [Swift Command Line Project XCode Template](https://github.com/Zewo/Swift-Command-Line-Application-Template)
 

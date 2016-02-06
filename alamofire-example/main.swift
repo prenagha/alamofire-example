@@ -47,4 +47,4 @@ if latch.wait(10) {
 }
 
 log.info("End")
-sleep(1)
+log.flush(10)

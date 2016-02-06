@@ -32,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		763D953F1C64F8EC0087CCFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		76660E381C65A363004E74E7 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		76660E391C65A36E004E74E7 /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 		7666F3D61C64500C00B1D56D /* alamofire-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alamofire-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7666F3D91C64500C00B1D56D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7666F3DB1C64500C00B1D56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				763D953F1C64F8EC0087CCFF /* README.md */,
+				76660E381C65A363004E74E7 /* Cartfile */,
+				76660E391C65A36E004E74E7 /* Cartfile.resolved */,
 				768EBC751C64E8E8008808B6 /* Alamofire.framework */,
 				768EBC761C64E8E8008808B6 /* SwiftyBeaver.framework */,
 				7666F3D81C64500C00B1D56D /* Source */,

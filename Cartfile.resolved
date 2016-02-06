@@ -1,1 +1,2 @@
 github "Alamofire/Alamofire" "3.1.5"
+github "prenagha/SwiftyBeaver" "v0.3.4"
